@@ -1,6 +1,6 @@
 **Update:** If you download the `.exe` below, you may find that it doesn't work. I don't know why this is and I don't think I'm ever going to fix it since I haven't used Python in a long time. However, if you know how to use Python you can still use the script. Some day I will get around to making a much better sprite tool.
 # Sprite Replacer
-~~Instructions are included in~~ instructions for the latest release (download [here](https://github.com/Ursi/SB-Sprite-Replacer/releases/latest)) Are now here.
+instructions for the latest release (download [here](https://github.com/Ursi/SB-Sprite-Replacer/releases/latest)) Are now here.
 
 #### [Available Sprite Packs](https://drive.google.com/drive/folders/1KoxQDlHt7kVwYeeh0UJNXppwqRmm2zCM?usp=sharing)
 ## Instructions
