@@ -4,13 +4,12 @@ import os
 import re
 from shutil import copy
 
-PATH = re.findall('.+Sprite Replacer', os.getcwd())[0]
-DSS_PATH = os.path.join(PATH, 'sprite sheets', 'default')
-CSS_PATH = os.path.join(PATH, 'sprite sheets', 'custom')
-TEXTURE_PATH = io.open(os.path.join(PATH, 'texture.txt')).read()
+DSS_PATH = os.path.abspath(os.path.join('sprite-sheets', 'default'))
+CSS_PATH = os.path.abspath(os.path.join('sprite-sheets', 'custom'))
+TEXTURE_PATH = io.open('texture.txt').read()
 spriteSheet = {'name': {}}
-os.chdir(os.path.join(PATH, 'custom sprites'))
-for texture in os.listdir(os.getcwd()):	
+os.chdir('sprite-packs')
+for texture in os.listdir(os.getcwd()):
 	os.chdir(texture)
 	for relSheet in os.listdir(os.getcwd()):
 		os.chdir(relSheet)
